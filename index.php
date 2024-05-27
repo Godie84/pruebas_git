@@ -35,7 +35,7 @@ if(isset($_POST['submit'])){
 	}
 
 	if($_POST['password'] != $_POST['passwordConfirm']){
-		$error[] = 'Las contraseñas no coinciden.';
+		$error[] = 'Las contraseñas no coinciden, por favor vuelva a intentarlo.';
 	}
 
 	//Validamos el correo electronico
