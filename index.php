@@ -31,7 +31,7 @@ if(isset($_POST['submit'])){
 	}
 
 	if(strlen($_POST['passwordConfirm']) < 3){
-		$error[] = 'Confirmar contraseña es demasiado corta.';
+		$error[] = 'Confirmar contraseña es demasiado cortasdcskdcmlskdcmsdc.';
 	}
 
 	if($_POST['password'] != $_POST['passwordConfirm']){
